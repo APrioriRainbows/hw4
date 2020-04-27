@@ -1,4 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int userNum;
+    cout<<"Enter a decimal number: "<<endl;
+    cin>>userNum;
+
+//    while(...){
 //
-// Created by Maria Caruso on 4/26/20.
-//
+//    }
+    return 0;
+}
 
