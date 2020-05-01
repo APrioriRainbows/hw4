@@ -1,15 +1,13 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
-    int userNum = 10;
-    int currentLine;
-    int spaceCount, spaceCountLeft, spaceCountRight;
-    int spaces;
-    int starCount;
-    int stars;
-    int lineCount;
+    int userNum;
+    int lineCount, currentLine;
+    int spaces, spaceCount, spaceCountLeft, spaceCountRight;
+    int stars, starCount;
+    cout<<"Please input a positive integer: ";
+    cin>>userNum;
     starCount = (userNum * 2) - 1;
     spaceCount = 0;
     lineCount = userNum;

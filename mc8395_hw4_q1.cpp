@@ -5,6 +5,7 @@ int main() {
     int userCount;
     int currentEven;
     int count;
+    //Section A
     cout << "Section a" << endl;
     cout<<"Please enter a positive integer: ";
     cin>>userCount;
@@ -14,6 +15,7 @@ int main() {
         count++;
         cout<<currentEven<<endl;
     }
+    //Section b
     cout << "Section b" << endl;
     cout<<"Please enter a positive integer: ";
     cin>>userCount;

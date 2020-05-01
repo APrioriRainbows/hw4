@@ -6,6 +6,7 @@ int main() {
     cout<<"Enter a decimal number: "<<endl;
     cin>>userNum;
     int changeNum = userNum;
+    cout<<userNum<<" is ";
     while(changeNum > 0){
         if (changeNum / 1000 >= 1) {
             cout << "M";
